@@ -8,7 +8,7 @@ const app = express();
 
 
 app.use(express.json());
-app.use(express.static('./src/static'));
+app.use(express.static('./public_html'));
 app.use('/', router)
 
 async function startApp() {
