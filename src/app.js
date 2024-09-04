@@ -2,7 +2,7 @@ import express from 'express';
 import router from './router.js'
 import path from 'path'
 
-const PORT = 5555;
+const PORT = 80;
 
 const app = express();
 
